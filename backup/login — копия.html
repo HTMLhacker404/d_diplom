@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TextBook - Redactor</title>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="учебник, редактор, текст, интерактивный, конструктор">
+		<meta name="description" content="Конструктор интерактивных учебников">
+		<link rel="shortcut icon" href="/image/Terminal.ico">
+		<link id="link-style" rel="stylesheet" href="/style/style.css" type="text/css">
+	</head>
+
+	<body>
+		<header>
+			<div class="menu">
+				<ul class="main-menu">
+					<li class="main"><a href="index.html">Главная</a></li>
+					<li class="news"><a href="#">Новости</a></li>
+					<li class="comment"><a href="#">Отзывы</a></li>
+					<li class="account"><a href="#">Мой Аккаунт</a></li>
+
+				</ul>
+			</div>
+		</header>
+
+		<!---------------HEADER END------------------>
+
+		<main>
+			<div class="login-field">
+				<h1 class="login-h1">Авторизация</h1>
+				<form action="check_login.js" method="POST">
+					<label>
+						<span class="login-text">Login</span>
+						<input type="login" name="login_field" id="login"><br>
+					</label>
+					<label>
+						<span>Password</span>
+						<input type="password" name="password_field" id="password"><br>
+					</label>
+					<label>
+						<input type="checkbox" name="post_box" id="post" checked>
+						<span class="post_text">Подписаться на рассылку</span><br>
+					</label>
+					<input type="submit" name="submit_login" id="sub_log">
+				</form>
+				<a href="reg.html" class="reg-link">Регистрация</a>
+			</div>
+		</main>
+
+		<!---------------MAIN END------------------>
+
+		<footer>
+			
+		</footer>
+
+		<script src="app.js"></script>
+		
+	</body>
+</html>

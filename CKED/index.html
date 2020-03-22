@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>A Simple Page with CKEditor</title>
+        <!-- Make sure the path to CKEditor is correct. -->
+        <script src="ckeditor/ckeditor.js"></script>
+        <link rel="shortcut icon" href="..//image/Terminal.ico">
+        <link id="link-style" rel="stylesheet" type="text/css" href="..//style/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <a href="../index.html" class="logo">TextBook - Redactor</a>
+                <ul class="main-menu">
+                    <li class="main"><a href="../index.html">Главная</a></li>
+                    <li class="info"><a href="../info.html">Информация</a></li>
+                    <li class="feedback"><a href="feedback.html">Обратная связь</a></li>
+                    <!-- <li class="account"><a href="../login.html">Мой Аккаунт</a></li> -->
+                </ul>
+            </div>
+        </header>
+
+
+        <form>
+            <textarea name="editor1" id="editor1" rows="10" cols="80">
+                This is my textarea to be replaced with CKEditor.
+            </textarea>
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                CKEDITOR.replace( 'editor1' );
+            </script>
+        </form>
+
+        
+    </body>
+</html>

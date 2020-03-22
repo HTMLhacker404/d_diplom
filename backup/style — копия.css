@@ -1,0 +1,461 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	background: #222222;
+	width: 100%;
+	height: 80px;
+}
+
+header .main-menu{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	font-family: 'Arial', sans-serif;
+	font-size: 22px;
+	float: right;
+	margin-right: 20px;
+}
+
+header .main-menu li{
+	display: inline-block;
+	margin-right: 5px;
+	margin-right: -7px;
+}
+
+header .main-menu li a{
+	text-decoration: none;
+	color: darkorange;
+	display: block;
+	padding: 25px 25px;
+}
+
+header .main-menu li a:hover{
+	color: white;
+}
+
+header .logo {
+	display: block;
+	width: 300px;
+	height: 58px;
+	padding-top: 20px;
+	/*border: 1px solid red;*/
+	text-decoration: none;
+	float: left;
+	color: white;
+	margin-left: 30px;
+	font-size: 32px;
+	font-family: 'Arial', sans-serif;
+}
+
+header .decoration-block {
+	width: auto;
+	height: 30px;
+	border: 2px solid white;
+	padding: 0px;
+	margin-top: 20px;
+	float: right;
+}
+
+header /*.dark-or-light*/ .decoration-1 {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	cursor: pointer;
+}
+
+header /*.dark-or-light*/ .decoration-2 {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	margin-left: -4px;
+	cursor: pointer;
+}
+
+/* ==============MAIN - START============== */
+
+.info-menu{
+	font-family: 'Arial', sans-serif;
+	background-color: #222222;
+	width: 325px;
+	max-width: 500px;
+	height: 450px;
+	max-height: 800px;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+	overflow-y: auto;
+	margin-bottom: 50px;
+}
+
+.button-add {
+	background-color: #222;
+	color: darkorange;
+	outline: none;
+	cursor: pointer;
+	padding: 10px 25px;
+	margin-left: 31%;
+	margin-top: 10px;
+	border: 2px solid darkorange;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.button-add:hover {
+	background-color: darkorange;
+	color: #222;
+	border: 2px solid #222;
+}
+
+.sub-info-menu{
+	display: block;
+	list-style: none;
+	margin: 0px;
+	padding-left: 20%;
+	padding-top: 40px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 28px;
+}
+
+.sub-info-menu .book{
+	display: inline-block;
+	border-bottom: 1px solid white;
+	width: 80%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.sub-info-menu .book .link-book{
+	display: block;
+	text-decoration: none;
+	color: darkorange;
+	padding-bottom: 15px;
+}
+
+/*--------------MAIN - END---------------*/
+
+/*--------------FIX-MAIN - START---------------*/
+
+.container-bookList {
+	width: 40em;
+	height: auto;
+	font-family: 'Arial', sans-serif;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	margin-top: 7em;
+}
+
+.container-bookList #bookName {
+	padding: 0.5em 1em;
+	width: 29.8em;
+	border-radius: 10px;
+	font-size: 20px;
+	outline: none;
+	border: 2px solid darkorange;
+}
+
+.container-bookList #bookName:focus {
+	box-shadow: 0px 0px 7px 2px rgba(249,135,38,0.7);
+}
+
+.container-bookList hr {
+	margin-top: 1.5em;
+	height: 2px;
+	width: 40em;
+	border: none;
+	color: lightgray;
+	background-color: lightgray;
+}
+
+.container-bookList .book-item {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 1em;
+}
+
+.container-bookList .book-item .books {
+	display: block;
+	color: #222;
+	font-size: 22px;
+	border: 2px solid #222;
+	width: 28.4em;
+	height: 1.8em;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-top: -2px;
+	border-radius: 10px;
+}
+
+.container-bookList .book-item .books:hover {
+	box-shadow: 0px 0px 7px 1px rgba(34,34,34,0.7);
+	width: 28.5em;
+	height: 1.9em;
+}
+
+.container-bookList .book-item a {
+	display: inline-block;
+	color: #222;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.container-bookList .book-item a:hover {
+	color: #F28F43;
+}
+
+/*.container-bookList .book-item li.delete-block{
+	display: none;
+}*/
+
+.container-bookList .book-item span {
+	display: inline;
+	color: /*#BBBBBB*/ #AFAFAF;
+	font-size: 18px;
+}
+
+.container-bookList .close{
+/*  position: absolute;
+    top: 5px;
+    right: 5px;*/
+    border: 2px solid #e62f57 /*darkorange*/;
+    /*border-radius: 50%;*/
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+    opacity: 0.3;
+    /*margin-top: -28px;*/
+}
+
+.container-bookList .close:hover {
+	opacity: 1;
+}
+
+.container-bookList .close:before,
+.container-bookList .close:after {
+    content: "";
+    position: absolute;
+    /*top: 21px;
+    left: 10px;*/
+    width: 27px;
+    height: 2px;
+    background: #e62f57 /*darkorange*/;
+    margin-top: 13px;
+}
+
+.container-bookList .close:before {
+    webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.container-bookList .close:after {
+    webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+/*--------------FIX-MAIN - END---------------*/
+
+/*--------------<CHOOSE - START>---------------*/
+
+.choose-redactor {
+	margin: 0 auto;
+	width: 32.5em;
+	height: 10em;
+	padding: 15px 20px;
+	border: 1px solid black;
+	margin-top: 70px;
+	background-color: #222;
+	box-shadow: 5px 5px 7px rgba(34,34,34,0.5);
+	text-align: center;
+}
+
+.choose-redactor a {
+	display: inline-block;
+	text-decoration: none;
+	color: darkorange; 
+	font-family: 'Arial', sans-serif;
+	font-size: 28px;
+	/*border: 1px solid red;*/
+	padding: 5px 10px;
+	margin-top: 40px;
+	margin-left: -4px;
+}
+
+.choose-redactor a:hover {
+	color: #fff;
+}
+
+.choose-redactor .cked {
+	border-right: 2px solid #fff;
+	padding-right: 12px;
+}
+
+/*--------------<CHOOSE - END>---------------*/
+
+/*--------------<FORM : LOGIN - START>---------------*/
+
+.login-field{
+	font-family: "Arial", sens-serif;
+	background-color: #222222;
+	padding: 0px;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	width: 350px;
+	height: 450px;
+	color: darkorange;
+	box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+}
+
+.alert-login{
+	display: none;
+	position: absolute;
+	top: 15%;
+	left: 40.9%;
+	/*top: 135px;
+	left: 785px;*/
+	width: 350px;
+	height: 55px;
+	background-color: #F98726;
+	color: #222;
+	font-family: 'Arial', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 17px;
+	box-shadow: 5px 5px 7px rgba(249,135,38,0.7);
+}
+
+.login-field .login-h1{
+	/*font-family:"Times New Roman", serif;*/
+	display: block;
+	text-align: center;
+	padding-top: 45px;
+
+}
+
+.login-field .place-LP{
+	padding-top:20px;
+}
+
+.login-field .field-LP{
+	display: block;
+	padding: 5px 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login-field label{
+	display: block;
+	padding: 10px 0px 10px 0px;
+	/*border: 1px solid white;*/
+	text-align: center;
+}
+
+.login-field #sub_log{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background-color: #222222;
+	color: darkorange;
+	border: 2px solid #999;
+	padding: 5px 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.login-field #sub_log:hover{
+	cursor: pointer;
+}
+
+.login-field .reg-link{
+	width: 100%;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align:center;
+}
+
+.login-field .reg-link a{
+	/*color: white;*/
+	color: lightcyan;
+}
+
+/*--------------<FORM : LOGIN - END>---------------*/
+
+
+/* -------------- INFORMATION - START -------------*/
+
+.container {
+	/*border: 1px solid #000;*/
+	width: 40%;
+	height: auto;
+	background-color: #E1E1E1;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 50px 25px;
+	margin-bottom: 50px;
+}
+
+.header-info {
+	font-family: 'Arial', sans-serif;
+	font-size: 38px;
+}
+
+.version-info {
+	font-size: 18px;
+	font-style: italic;
+
+}
+
+.text-info {
+	font-size: 22px;
+}
+
+.link-container {
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin: 0 auto;
+}
+
+.user-button {
+	display: inline-block;
+	padding: 15px 30px;
+	text-decoration: none;
+	color: darkorange;
+	background-color: #222222;
+	font-weight: bold;
+	font-family: 'Arial', sans-serif;
+	border-radius: 10px;
+/*	margin-left: 225px;
+	margin-top: 20px;*/
+}
+
+
+
+
+
+
+/* -------------- INFORMATION - END -------------*/
+
+
+
+/* -------------- USER AGREEMENT - START -------------*/
+
+
+
+/* -------------- USER AGREEMENT - END -------------*/
+
+
+
